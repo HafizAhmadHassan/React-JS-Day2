@@ -22,4 +22,5 @@ Created first page sketch
 
 # Day2
 1.  [Html CSS tech gun](https://www.youtube.com/watch?v=QXPWs00RD3A&t=3640s)
-2. 
+# Day 3
+Html CSS  continue
