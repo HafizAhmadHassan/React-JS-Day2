@@ -1157,3 +1157,542 @@ FORMS
     </body>
 
 </html>
+
+
+
+Form File upload
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <form enctype="multipart/form-data">
+
+            <div>
+                file :
+                <input type="file" multiple>
+
+            </div>
+
+
+            
+        </form>
+
+
+    </head>
+    <body>
+      
+    </body>
+
+</html>
+
+
+
+
+Forms attribute
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <form enctype="multipart/form-data">
+
+            <div>
+               
+                <input type="text" value="Hafiz Ahmad" readonly>
+                <input type="submit">
+
+                <input type="text" value="Hafiz Ahmad" disable>
+                <input type="submit">
+
+                <input type="text" value="Hafiz Ahmad" size="50" maxlength="20">
+                <input type="submit">
+
+
+                <input type="number" min="100" max="200">
+                <input type="submit">
+
+
+                <input type="text" placeholder="Enter Name" required>
+                <input type="submit">
+
+                <!--odd number-->
+                <input type="number" value="1" step="2">
+                <input type="submit">
+
+
+                <input type="text" autofocus>
+                <input type="submit">
+
+                <input type="text" autocomplete="on">
+                <input type="submit">
+<!-- for the backend-->
+                <input type="text" name="first_name">
+                <input type="submit">
+<!--Text Area  Form-->
+                <textarea name="mytextarea" placeholder="Eneter Description" cols="30" rows="10"></textarea>
+                <textarea name="mytextarea" placeholder="Eneter Description" cols="30" rows="10">Helo</textarea>
+                <input type="image" src="">
+
+            </div>
+
+
+
+            
+
+            
+        </form>
+
+
+    </head>
+    <body>
+      
+    </body>
+
+</html>
+
+
+
+Drop Down
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <form >
+
+         <!--by default i am selecting 2-->
+            <select size="2">
+                <option value="audi">
+                    audi
+
+                </option>
+                <!--default selection-->
+                <option value="tata" selected>
+                    Tata
+
+                </option>
+
+
+                <option value="bmw">
+                    BMW
+
+                </option>
+
+            </select>
+
+
+            <!-- multiple selection-->
+
+            <select size="2" multiple>
+                <option value="audi">
+                    audi
+
+                </option>
+                <!--default selection-->
+                <option value="tata" selected>
+                    Tata
+
+                </option>
+
+
+                <option value="bmw">
+                    BMW
+
+                </option>
+
+            </select>
+
+            
+
+
+            <!-- making option group-->
+            <select >
+
+            <optgroup label="Car">
+                <option value="audi">
+                    audi
+
+                </option>
+                <!--default selection-->
+                <option value="tata" selected>
+                    Tata
+
+                </option>
+
+
+                <option value="bmw">
+                    BMW
+
+                </option>
+
+            </optgroup>
+                
+
+            <optgroup label="Sports">
+                <option value="bmw">
+                    Cricket
+
+                </option>
+                <option value="bmw">
+                    Hockey
+                </option>
+                <option value="bmw">
+                    Football
+
+                </option>
+            </optgroup>
+
+              
+
+            </select>
+
+
+            
+        </form>
+
+
+    </head>
+    <body>
+      
+    </body>
+
+</html>
+
+
+
+
+HTML RADIO BUTTON- 
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <form >
+
+            <div>
+                <input type="radio" > Male
+                <input type="radio" > Female
+                <input type="radio" > Other
+
+            </div>
+
+
+            
+        </form>
+
+
+    </head>
+    <body>
+      
+    </body>
+
+
+<!--by default selection-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <form >
+
+            <div>
+                <input name="gender" type="radio" > Male
+                <input name="gender" type="radio" checked> Female
+                <input name="gender" type="radio" > Other
+
+
+            </div>
+
+
+            
+        </form>
+
+
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+
+Checkbox
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <form >
+
+            <div>
+                <input name="gender" type="checkbox" > Male
+                <input name="gender" type="checkbox" > Female
+                <input name="gender" type="checkbox" > Other
+
+
+            </div>
+
+
+            
+        </form>
+
+
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+DataList
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <form>
+            Text : <input type="text" list="search">
+            <datalist id="search">
+            
+                <option value="Mango">
+                <option value="orage">
+               
+            </datalist>
+        <input type="submit" value="search">
+
+        </form>
+    
+
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <form>
+            
+
+            <fieldset>
+                <legend>
+
+                    Basic Information:
+                </legend>
+                <label for="fname">
+                    First Name
+                </label>
+                <input type="text" id="fname" name="first_name">
+
+
+                <label for="lname">
+                    Last Name
+                </label>
+                <input type="text" id="lname" name="last_name">
+
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>
+
+                    Other Information:
+                </legend>
+                <label for="address">
+                    Address
+                </label>
+                <input type="text" id="address" name="address">
+
+
+                <label for="mobile">
+                    Mobile
+                </label>
+                <input type="text" id="mobile" name="mobile">
+
+            </fieldset>
+
+        </form>
+    
+
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+
+Favicon
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+       <title>
+           Home page
+       </title>
+       <!-- for descption in google-->
+       <meta name="descption"
+       content="this page is about new car"
+       />
+       <meta name="keywords" content ="new, car"/>
+
+       <link rel="canonical" href="car.html"/ >
+
+       <meta name="robots" content"index, follow"/>
+    
+       <link rel="icon" href="favicon.jpg" type="image/jpeg">
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+
+Script vs no script
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script>
+            alert("Hello")
+        </script>
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script src="js/script.js"></script>
+        <noscript>Please enable javascript! </noscript>
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+open graph and twitter card 
+just search on google and paste the code
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script>
+            alert("Hello")
+        </script>
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+Responsive
+Viewport 
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content = "width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html dir="ltr">
+
+    <head>
+        <meta name="viewport" content = "width=device-width, initial-scale=1">
+    
+    </head>
+    <body>
+      
+    </body>
+
+
+</html>
+
+
+
+w3C code validation
