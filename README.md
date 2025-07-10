@@ -1,3 +1,10 @@
+# Changes
+
+- User.jsx inside Source
+- Changes in App.jsx
+- Counter in added by User Input
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
