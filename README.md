@@ -1,4 +1,4 @@
-# Execution and Naming Convention Practices
+## Execution and Naming Convention Practices
 index.html execute
 inside there is root it will execute main.jsx
 
